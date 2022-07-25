@@ -24,8 +24,9 @@
                      <threadCount>4</threadCount>
                      <perCoreThreadCount>false</perCoreThreadCount>-->
                     <!--Above 3 lines are for parallel testing in your computer -->
+                          <testFailureIgnore>true</testFailureIgnore>
                     <includes>
-                        <include>**/CukesRunner.java</include>
+                        <include>**/*CukesRunner.java</include>
                     </includes>
                 </configuration>
             </plugin>
